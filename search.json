@@ -14,15 +14,22 @@
     "text": "{{&lt; fa envelope &gt;}}   felipe.lew.yee@quimica.unam.mx\n\n\n{{&lt; fa map-location-dot &gt;}}   Circuito Escolar S/N, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX."
   },
   {
-    "objectID": "Software.html",
-    "href": "Software.html",
+    "objectID": "mi-sitio-web/index.html",
+    "href": "mi-sitio-web/index.html",
+    "title": "mi-sitio-web",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
     "title": "Software",
     "section": "",
     "text": "DoNOF\n\n\n \nPyNOF\n\n\n\n\n \nDoNOF.jl"
   },
   {
-    "objectID": "Software.html#donof",
-    "href": "Software.html#donof",
+    "objectID": "software.html#donof",
+    "href": "software.html#donof",
     "title": "Software",
     "section": "",
     "text": "DoNOF\n\n\n \nPyNOF\n\n\n\n\n \nDoNOF.jl"
@@ -33,13 +40,6 @@
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "mi-sitio-web/index.html",
-    "href": "mi-sitio-web/index.html",
-    "title": "mi-sitio-web",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "miembros.html",
