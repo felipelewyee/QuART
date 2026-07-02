@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://felipelewyee.github.io/quarto-page/index.html</loc>
-    <lastmod>2026-07-02T08:00:10.208Z</lastmod>
+    <loc>https://felipelewyee.github.io/QuART/index.html</loc>
+    <lastmod>2026-07-02T08:08:54.147Z</lastmod>
   </url>
   <url>
-    <loc>https://felipelewyee.github.io/quarto-page/miembros.html</loc>
-    <lastmod>2026-07-02T07:53:46.504Z</lastmod>
+    <loc>https://felipelewyee.github.io/QuART/miembros.html</loc>
+    <lastmod>2026-07-02T08:08:54.148Z</lastmod>
   </url>
   <url>
-    <loc>https://felipelewyee.github.io/quarto-page/mi-sitio-web/about.html</loc>
-    <lastmod>2026-04-26T06:44:46.830Z</lastmod>
+    <loc>https://felipelewyee.github.io/QuART/mi-sitio-web/index.html</loc>
+    <lastmod>2026-07-02T08:08:54.148Z</lastmod>
   </url>
   <url>
-    <loc>https://felipelewyee.github.io/quarto-page/mi-sitio-web/index.html</loc>
-    <lastmod>2026-04-26T06:44:46.830Z</lastmod>
+    <loc>https://felipelewyee.github.io/QuART/about.html</loc>
+    <lastmod>2026-07-02T08:08:54.147Z</lastmod>
   </url>
   <url>
-    <loc>https://felipelewyee.github.io/quarto-page/intro.html</loc>
-    <lastmod>2026-07-02T07:54:18.777Z</lastmod>
+    <loc>https://felipelewyee.github.io/QuART/mi-sitio-web/about.html</loc>
+    <lastmod>2026-07-02T08:08:54.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://felipelewyee.github.io/QuART/Software.html</loc>
+    <lastmod>2026-07-02T08:20:57.592Z</lastmod>
+  </url>
+  <url>
+    <loc>https://felipelewyee.github.io/QuART/intro.html</loc>
+    <lastmod>2026-07-02T08:08:54.147Z</lastmod>
   </url>
 </urlset>

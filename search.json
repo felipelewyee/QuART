@@ -21,6 +21,20 @@
     "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\n\n\n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\n\n\n\n\n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura"
   },
   {
+    "objectID": "mi-sitio-web/index.html",
+    "href": "mi-sitio-web/index.html",
+    "title": "mi-sitio-web",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "mi-sitio-web/about.html",
     "href": "mi-sitio-web/about.html",
     "title": "About",
@@ -28,11 +42,18 @@
     "text": "About this site"
   },
   {
-    "objectID": "mi-sitio-web/index.html",
-    "href": "mi-sitio-web/index.html",
-    "title": "mi-sitio-web",
+    "objectID": "Software.html",
+    "href": "Software.html",
+    "title": "Software",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "DoNOF\n\n\n \nDoNOF\n\n\n\n\n \nDoNOF"
+  },
+  {
+    "objectID": "Software.html#donof",
+    "href": "Software.html#donof",
+    "title": "Software",
+    "section": "",
+    "text": "DoNOF\n\n\n \nDoNOF\n\n\n\n\n \nDoNOF"
   },
   {
     "objectID": "intro.html",
