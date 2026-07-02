@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://felipelewyee.github.io/quarto-page/index.html</loc>
-    <lastmod>2026-07-02T06:08:13.284Z</lastmod>
+    <lastmod>2026-07-02T08:00:10.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://felipelewyee.github.io/quarto-page/miembros.html</loc>
+    <lastmod>2026-07-02T07:53:46.504Z</lastmod>
   </url>
   <url>
     <loc>https://felipelewyee.github.io/quarto-page/mi-sitio-web/about.html</loc>
     <lastmod>2026-04-26T06:44:46.830Z</lastmod>
   </url>
   <url>
-    <loc>https://felipelewyee.github.io/quarto-page/about.html</loc>
+    <loc>https://felipelewyee.github.io/quarto-page/mi-sitio-web/index.html</loc>
     <lastmod>2026-04-26T06:44:46.830Z</lastmod>
   </url>
   <url>
-    <loc>https://felipelewyee.github.io/quarto-page/mi-sitio-web/index.html</loc>
-    <lastmod>2026-04-26T06:44:46.830Z</lastmod>
+    <loc>https://felipelewyee.github.io/quarto-page/intro.html</loc>
+    <lastmod>2026-07-02T07:54:18.777Z</lastmod>
   </url>
 </urlset>

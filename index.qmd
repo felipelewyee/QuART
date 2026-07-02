@@ -1,35 +1,28 @@
 ---
-title: "mi-sitio-web"
+title: "QuART Lab"
 format:
   html:
-    code-fold: false
+    code-fold: true
 jupyter: python3
 ---
 
+- **Q**uantum **A**lgorithms and **R**dm **T**heory **LAB**oratory
+
+- **Q**uantum **ART**ificial **LAB**oratory
+
+
 Bienvenido!
 
-Esta es la página de Juan Felipe Huan Lew Yee
+Esta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee.
 
-## Polar Axis
+Nos dedicamos a hacer:
 
-For a demonstration of a line plot on a polar axis, see @fig-polar.
+- Química Cuántica
 
-For a demonstration of a line plot on a polar axis, see @fig-polar.
+- Machine Learning
 
-```{python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis"
+- Quantum Computing
 
-import numpy as np
-import matplotlib.pyplot as plt
+**Ubicación:** Facultad de Química, Universidad Nacional Autónoma de México
 
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'} 
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
+![](Imagenes/QuART.png){fig-align="center" width="80%"}
