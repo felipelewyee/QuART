@@ -21,11 +21,11 @@
     "text": "A Python-Based Module for Exploring Machine Learning-Inspired Optimization Algorithms Using Quantum Chemistry\n\n\n\nJournal Article\n\n2026\n\n\n\nPublicado en: Journal of Chemical Education\n\n\n\nJun 12, 2026\n\n\n\n\n\n\n\n\n\n\n5- and 6-Membered Rings: A Natural Orbital Functional Study\n\n\n\nJournal Article\n\n2026\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\nDoNOF 2.0: A modern open-source electronic structure program for natural orbital functionals\n\n\n\nJournal Article\n\n2026\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nFeb 21, 2026\n\n\n\n\n\n\n\n\n\n\nAdvancing Natural Orbital Functional Calculations through Deep Learning-Inspired Techniques for Large-Scale Strongly Correlated Electron Systems\n\n\n\nJournal Article\n\n2025\n\n\n\nPublicado en: Physical Review Letters\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\n\n\n\nEfficient Energy Measurement of Chemical Systems via One-Particle Reduced Density Matrix: A NOF-VQE Approach for Optimized Sampling\n\n\n\nJournal Article\n\n2025\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 11, 2025\n\n\n\n\n\n\n\n\n\n\nEnhancing the computational efficiency of the DoNOF program through a new orbital sorting scheme\n\n\n\nBook Chapter\n\n2025\n\n\n\nPublicado en: Advances in Quantum Chemistry\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\nMETAL-INSULATOR TRANSITION DESCRIBED BY NOFT,TRANSICIÓN METAL-AISLANTE DESCRITA POR LA TFON\n\n\n\nJournal Article\n\n2025\n\n\n\nPublicado en: Revista Cubana De Fisica\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\nSoftmax parameterization of the occupation numbers for natural orbital functionals based on electron pairing approaches\n\n\n\nJournal Article\n\n2024\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nJun 28, 2024\n\n\n\n\n\n\n\n\n\n\nExcited States by Coupling Piris Natural Orbital Functionals with the Extended Random-Phase Approximation\n\n\n\nJournal Article\n\n2024\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 12, 2024\n\n\n\n\n\n\n\n\n\n\nCorrelation balance for describing carbenes: An NOF study\n\n\n\nJournal Article\n\n2023\n\n\n\nPublicado en: AIP Advances\n\n\n\nJun 1, 2023\n\n\n\n\n\n\n\n\n\n\nOutstanding improvement in removing the delocalization error by global natural orbital functional\n\n\n\nJournal Article\n\n2023\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nFeb 28, 2023\n\n\n\n\n\n\n\n\n\n\nElectron Correlation in the Iron(II) Porphyrin by Natural Orbital Functional Approximations\n\n\n\nJournal Article\n\n2023\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nJan 10, 2023\n\n\n\n\n\n\n\n\n\n\nCharge delocalization error in Piris natural orbital functionals\n\n\n\nJournal Article\n\n2022\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nSep 14, 2022\n\n\n\n\n\n\n\n\n\n\nResolution of the identity approximation applied to PNOF correlation calculations\n\n\n\nJournal Article\n\n2021\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nFeb 14, 2021\n\n\n\n\n\n\n\n\n\n\nAsymmetric Density Fitting with Modified Cholesky Decomposition Applied to Second-Order Electron Propagator\n\n\n\nJournal Article\n\n2020\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 10, 2020\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "mi-sitio-web/index.html",
-    "href": "mi-sitio-web/index.html",
-    "title": "mi-sitio-web",
+    "objectID": "mi-sitio-web/about.html",
+    "href": "mi-sitio-web/about.html",
+    "title": "About",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "About this site"
   },
   {
     "objectID": "software.html",
@@ -35,32 +35,11 @@
     "text": "DoNOF\n \n\n\nPyNOF\n \n\n\n\n\nDoNOF.jl"
   },
   {
-    "objectID": "mi-sitio-web/about.html",
-    "href": "mi-sitio-web/about.html",
-    "title": "About",
+    "objectID": "mi-sitio-web/index.html",
+    "href": "mi-sitio-web/index.html",
+    "title": "mi-sitio-web",
     "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "intro2.html",
-    "href": "intro2.html",
-    "title": "Quantum Architecture & Reduced-matrix Theory Lab",
-    "section": "",
-    "text": "En el QuART Lab, nos ubicamos en la frontera del conocimiento combinando la Teoría de Matrices de Densidad Reducida (1-RDM), el Aprendizaje Automático y la Computación Cuántica para modelar y predecir fenómenos químicos complejos tanto en arquitecturas clásicas como cuánticas.\nVer nuestro Software Conoce al Equipo"
-  },
-  {
-    "objectID": "intro2.html#líneas-de-investigación",
-    "href": "intro2.html#líneas-de-investigación",
-    "title": "Quantum Architecture & Reduced-matrix Theory Lab",
-    "section": "Líneas de Investigación",
-    "text": "Líneas de Investigación\n\n\n Química Cuántica & 1-RDMFT\nDesarrollamos e implementamos métodos avanzados basados en la Teoría del Funcional de Orbitales Naturales (NOFT). Buscamos capturar la correlación estática y dinámica simultáneamente con un costo computacional polinómico eficiente.\n\n\n Inteligencia Artificial\nIntegramos algoritmos de Machine Learning y arquitecturas de aprendizaje profundo para predecir propiedades moleculares, corregir matrices de densidad reducida y acelerar significativamente la convergencia y diseño de nuevos funcionales.\n\n\n Computación Cuántica\nLlevamos la simulación molecular a plataformas cuánticas. A través del algoritmo NOF-VQE, reducimos drásticamente el costo de medición en hardware cuántico real, fusionando metodologías clásicas con la computación del futuro."
-  },
-  {
-    "objectID": "intro2.html#ecosistema-de-software-abierto",
-    "href": "intro2.html#ecosistema-de-software-abierto",
-    "title": "Quantum Architecture & Reduced-matrix Theory Lab",
-    "section": "Ecosistema de Software Abierto",
-    "text": "Ecosistema de Software Abierto\nCreemos firmemente en la soberanía tecnológica y el software científico de código abierto. Nuestro laboratorio lidera el desarrollo de plataformas clave en la comunidad:\n\n\nDoNOF / DoNOF.jl\nNuestra plataforma insignia nativa diseñada para Cómputo de Alto Rendimiento (HPC) y paralelización avanzada, especializada en funcionales de orbitales naturales de Piris (PNOF).\n\n\nPyNOF\nEcosistema moderno en Python optimizado para la flexibilidad en investigación, aceleración por GPU e integración nativa con librerías de Inteligencia Artificial."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "miembros.html",
