@@ -60,7 +60,7 @@
     "href": "intro2.html#ecosistema-de-software-abierto",
     "title": "Quantum Architecture & Reduced-matrix Theory Lab",
     "section": "Ecosistema de Software Abierto",
-    "text": "Ecosistema de Software Abierto\nCreemos firmemente en la soberanía tecnológica y el software científico de código abierto. Nuestro laboratorio lidera el desarrollo de plataformas clave en la comunidad:\n\n\nDoNOF / DoNOF.jl\nNuestra plataforma insignia nativa diseñada para Cómputo de Alto Rendimiento (HPC) y paralelización avanzada, especializada en funcionales de orbitales naturales de Piris (PNOF).\n\n\nPyNOF\nEcosistema moderno en Python optimizado para la flexibilidad en investigación, aceleración por GPU e integración nativa con librerías de Inteligencia Artificial.\n\n\n\n\n\n\n\n\n\nNote¿Te interesa unirte al grupo?\n\n\n\nSiempre estamos buscando estudiantes motivados de Licenciatura, Maestría o Doctorado en Química, Física, Matemáticas o Ciencias de la Computación que deseen especializarse en software científico y química teórica. Escríbenos en la sección de Contacto."
+    "text": "Ecosistema de Software Abierto\nCreemos firmemente en la soberanía tecnológica y el software científico de código abierto. Nuestro laboratorio lidera el desarrollo de plataformas clave en la comunidad:\n\n\nDoNOF / DoNOF.jl\nNuestra plataforma insignia nativa diseñada para Cómputo de Alto Rendimiento (HPC) y paralelización avanzada, especializada en funcionales de orbitales naturales de Piris (PNOF).\n\n\nPyNOF\nEcosistema moderno en Python optimizado para la flexibilidad en investigación, aceleración por GPU e integración nativa con librerías de Inteligencia Artificial."
   },
   {
     "objectID": "miembros.html",
@@ -77,10 +77,10 @@
     "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\n   \n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\n  \n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "intro.html#líneas-de-investigación",
+    "href": "intro.html#líneas-de-investigación",
     "title": "QuART Lab",
-    "section": "",
-    "text": "Quantum Algorithms and Rdm Theory LABoratory\nQuantum ARTificial LABoratory\n\nBienvenido!\nEsta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee.\nNos dedicamos a hacer:\n\nQuímica Cuántica\nMachine Learning\nQuantum Computing\n\nUbicación: Facultad de Química, Universidad Nacional Autónoma de México"
+    "section": "Líneas de Investigación",
+    "text": "Líneas de Investigación\n\n\n Química Cuántica & 1-RDMFT\nDesarrollamos e implementamos métodos avanzados basados en la Teoría del Funcional de Orbitales Naturales (NOFT). Buscamos capturar la correlación estática y dinámica simultáneamente con un costo computacional polinómico eficiente.\n\n\n Inteligencia Artificial\nIntegramos algoritmos de Machine Learning y arquitecturas de aprendizaje profundo para predecir propiedades moleculares, corregir matrices de densidad reducida y acelerar significativamente la convergencia y diseño de nuevos funcionales.\n\n\n Computación Cuántica\nLlevamos la simulación molecular a plataformas cuánticas. A través del algoritmo NOF-VQE, reducimos drásticamente el costo de medición en hardware cuántico real, fusionando metodologías clásicas con la computación del futuro.\n\n\n\n\n\n\n\nNote¿Te interesa unirte al grupo?\n\n\n\nSiempre estamos buscando estudiantes motivados de Licenciatura, Maestría o Doctorado en Química que deseen especializarse en química teórica y computacional. Escríbenos en la sección de Contacto.\n\n\nBienvenido!\nEsta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee.\nNos dedicamos a hacer:\n\nQuímica Cuántica\nMachine Learning\nQuantum Computing\n\nUbicación: Facultad de Química, Universidad Nacional Autónoma de México"
   }
 ]
