@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-date','listing-description','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-categories','listing-date','listing-description','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-categories","listing-date","listing-description","listing-title"],
     };
@@ -207,374 +207,305 @@ window.Quarto = {
 </header>
 
 
-<p>Aquí se muestran mis publicaciones académicas actualizadas automáticamente desde ORCID.</p>
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI2" data-listing-date-sort="1781244000000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1021/acs.jchemed.5c01470" class="no-external">A Python-Based Module for Exploring Machine Learning-Inspired Optimization Algorithms Using Quantum Chemistry</a>
-</h3>
-<div class="listing-categories">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-categories" data-direction="asc">
+        Categories
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+      <option value="listing-description" data-direction="asc">
+        Description
+      </option>
+      <option value="listing-title-sort" data-direction="asc">
+        Title
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+<th>
+<a class="sort" data-sort="listing-categories" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Categories</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1021/acs.jchemed.5c01470" class="no-external">
-<p>Publicado en: Journal of Chemical Education</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1021/acs.jchemed.5c01470" class="no-external">
-<div class="listing-date">
-Jun 12, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI2" data-listing-date-sort="1772690400000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1021/acs.jctc.5c01861" class="no-external">5- and 6-Membered Rings: A Natural Orbital Functional Study</a>
-</h3>
-<div class="listing-categories">
+<th>
+<a class="sort" data-sort="listing-description" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Description</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+</tr>
+</thead>
+<tbody class="list">
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1021/acs.jctc.5c01861" class="no-external">
-<p>Publicado en: Journal of Chemical Theory and Computation</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1021/acs.jctc.5c01861" class="no-external">
-<div class="listing-date">
-Mar 5, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI2" data-listing-date-sort="1771653600000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1063/5.0316927" class="no-external">DoNOF 2.0: A modern open-source electronic structure program for natural orbital functionals</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="0" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI2" data-listing-date-sort="1781244000000" data-listing-title-sort="A Python-Based Module for Exploring Machine Learning-Inspired Optimization Algorithms Using Quantum Chemistry">
+<td>
+<span class="listing-categories">Journal Article, 2026</span>
+</td>
+<td>
+<span class="listing-date">Jun 12, 2026</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Journal of Chemical Education</span>
+</td>
+<td>
+<a href="https://doi.org/10.1021/acs.jchemed.5c01470" class="title listing-title">A Python-Based Module for Exploring Machine Learning-Inspired Optimization Algorithms Using Quantum Chemistry</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNg=='); return false;">2026</div>
+<tr data-index="1" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI2" data-listing-date-sort="1772690400000" data-listing-title-sort="5- and 6-Membered Rings: A Natural Orbital Functional Study">
+<td>
+<span class="listing-categories">Journal Article, 2026</span>
+</td>
+<td>
+<span class="listing-date">Mar 5, 2026</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Journal of Chemical Theory and Computation</span>
+</td>
+<td>
+<a href="https://doi.org/10.1021/acs.jctc.5c01861" class="title listing-title">5- and 6-Membered Rings: A Natural Orbital Functional Study</a>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1063/5.0316927" class="no-external">
-<p>Publicado en: The Journal of Chemical Physics</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1063/5.0316927" class="no-external">
-<div class="listing-date">
-Feb 21, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI1" data-listing-date-sort="1747720800000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1103/PhysRevLett.134.206401" class="no-external">Advancing Natural Orbital Functional Calculations through Deep Learning-Inspired Techniques for Large-Scale Strongly Correlated Electron Systems</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+<tr data-index="2" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI2" data-listing-date-sort="1771653600000" data-listing-title-sort="DoNOF 2.0: A modern open-source electronic structure program for natural orbital functionals">
+<td>
+<span class="listing-categories">Journal Article, 2026</span>
+</td>
+<td>
+<span class="listing-date">Feb 21, 2026</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: The Journal of Chemical Physics</span>
+</td>
+<td>
+<a href="https://doi.org/10.1063/5.0316927" class="title listing-title">DoNOF 2.0: A modern open-source electronic structure program for natural orbital functionals</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1103/PhysRevLett.134.206401" class="no-external">
-<p>Publicado en: Physical Review Letters</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1103/PhysRevLett.134.206401" class="no-external">
-<div class="listing-date">
-May 20, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI1" data-listing-date-sort="1741672800000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1021/acs.jctc.4c01734" class="no-external">Efficient Energy Measurement of Chemical Systems via One-Particle Reduced Density Matrix: A NOF-VQE Approach for Optimized Sampling</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="3" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI1" data-listing-date-sort="1747720800000" data-listing-title-sort="Advancing Natural Orbital Functional Calculations through Deep Learning-Inspired Techniques for Large-Scale Strongly Correlated Electron Systems">
+<td>
+<span class="listing-categories">Journal Article, 2025</span>
+</td>
+<td>
+<span class="listing-date">May 20, 2025</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Physical Review Letters</span>
+</td>
+<td>
+<a href="https://doi.org/10.1103/PhysRevLett.134.206401" class="title listing-title">Advancing Natural Orbital Functional Calculations through Deep Learning-Inspired Techniques for Large-Scale Strongly Correlated Electron Systems</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+<tr data-index="4" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI1" data-listing-date-sort="1741672800000" data-listing-title-sort="Efficient Energy Measurement of Chemical Systems via One-Particle Reduced Density Matrix: A NOF-VQE Approach for Optimized Sampling">
+<td>
+<span class="listing-categories">Journal Article, 2025</span>
+</td>
+<td>
+<span class="listing-date">Mar 11, 2025</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Journal of Chemical Theory and Computation</span>
+</td>
+<td>
+<a href="https://doi.org/10.1021/acs.jctc.4c01734" class="title listing-title">Efficient Energy Measurement of Chemical Systems via One-Particle Reduced Density Matrix: A NOF-VQE Approach for Optimized Sampling</a>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1021/acs.jctc.4c01734" class="no-external">
-<p>Publicado en: Journal of Chemical Theory and Computation</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1021/acs.jctc.4c01734" class="no-external">
-<div class="listing-date">
-Mar 11, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="Qm9vayUyMENoYXB0ZXIlMkMyMDI1" data-listing-date-sort="1735711200000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1016/bs.aiq.2025.03.001" class="no-external">Enhancing the computational efficiency of the DoNOF program through a new orbital sorting scheme</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vayUyMENoYXB0ZXI='); return false;">Book Chapter</div>
+<tr data-index="5" data-categories="Qm9vayUyMENoYXB0ZXIlMkMyMDI1" data-listing-date-sort="1735711200000" data-listing-title-sort="Enhancing the computational efficiency of the DoNOF program through a new orbital sorting scheme">
+<td>
+<span class="listing-categories">Book Chapter, 2025</span>
+</td>
+<td>
+<span class="listing-date">Jan 1, 2025</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Advances in Quantum Chemistry</span>
+</td>
+<td>
+<a href="https://doi.org/10.1016/bs.aiq.2025.03.001" class="title listing-title">Enhancing the computational efficiency of the DoNOF program through a new orbital sorting scheme</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1016/bs.aiq.2025.03.001" class="no-external">
-<p>Publicado en: Advances in Quantum Chemistry</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1016/bs.aiq.2025.03.001" class="no-external">
-<div class="listing-date">
-Jan 1, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI1" data-listing-date-sort="1735711200000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="" class="no-external">METAL-INSULATOR TRANSITION DESCRIBED BY NOFT,TRANSICIÓN METAL-AISLANTE DESCRITA POR LA TFON</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="6" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI1" data-listing-date-sort="1735711200000" data-listing-title-sort="METAL-INSULATOR TRANSITION DESCRIBED BY NOFT,TRANSICIÓN METAL-AISLANTE DESCRITA POR LA TFON">
+<td>
+<span class="listing-categories">Journal Article, 2025</span>
+</td>
+<td>
+<span class="listing-date">Jan 1, 2025</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Revista Cubana De Fisica</span>
+</td>
+<td>
+<span class="listing-title">METAL-INSULATOR TRANSITION DESCRIBED BY NOFT,TRANSICIÓN METAL-AISLANTE DESCRITA POR LA TFON</span>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNQ=='); return false;">2025</div>
+<tr data-index="7" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI0" data-listing-date-sort="1719554400000" data-listing-title-sort="Softmax parameterization of the occupation numbers for natural orbital functionals based on electron pairing approaches">
+<td>
+<span class="listing-categories">Journal Article, 2024</span>
+</td>
+<td>
+<span class="listing-date">Jun 28, 2024</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: The Journal of Chemical Physics</span>
+</td>
+<td>
+<a href="https://doi.org/10.1063/5.0213719" class="title listing-title">Softmax parameterization of the occupation numbers for natural orbital functionals based on electron pairing approaches</a>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="" class="no-external">
-<p>Publicado en: Revista Cubana De Fisica</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="" class="no-external">
-<div class="listing-date">
-Jan 1, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI0" data-listing-date-sort="1719554400000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1063/5.0213719" class="no-external">Softmax parameterization of the occupation numbers for natural orbital functionals based on electron pairing approaches</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+<tr data-index="8" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI0" data-listing-date-sort="1710223200000" data-listing-title-sort="Excited States by Coupling Piris Natural Orbital Functionals with the Extended Random-Phase Approximation">
+<td>
+<span class="listing-categories">Journal Article, 2024</span>
+</td>
+<td>
+<span class="listing-date">Mar 12, 2024</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Journal of Chemical Theory and Computation</span>
+</td>
+<td>
+<a href="https://doi.org/10.1021/acs.jctc.3c01194" class="title listing-title">Excited States by Coupling Piris Natural Orbital Functionals with the Extended Random-Phase Approximation</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1063/5.0213719" class="no-external">
-<p>Publicado en: The Journal of Chemical Physics</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1063/5.0213719" class="no-external">
-<div class="listing-date">
-Jun 28, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDI0" data-listing-date-sort="1710223200000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1021/acs.jctc.3c01194" class="no-external">Excited States by Coupling Piris Natural Orbital Functionals with the Extended Random-Phase Approximation</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="9" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIz" data-listing-date-sort="1685599200000" data-listing-title-sort="Correlation balance for describing carbenes: An NOF study">
+<td>
+<span class="listing-categories">Journal Article, 2023</span>
+</td>
+<td>
+<span class="listing-date">Jun 1, 2023</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: AIP Advances</span>
+</td>
+<td>
+<a href="https://doi.org/10.1063/5.0146543" class="title listing-title">Correlation balance for describing carbenes: An NOF study</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyNA=='); return false;">2024</div>
+<tr data-index="10" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIz" data-listing-date-sort="1677564000000" data-listing-title-sort="Outstanding improvement in removing the delocalization error by global natural orbital functional">
+<td>
+<span class="listing-categories">Journal Article, 2023</span>
+</td>
+<td>
+<span class="listing-date">Feb 28, 2023</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: The Journal of Chemical Physics</span>
+</td>
+<td>
+<a href="https://doi.org/10.1063/5.0137378" class="title listing-title">Outstanding improvement in removing the delocalization error by global natural orbital functional</a>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1021/acs.jctc.3c01194" class="no-external">
-<p>Publicado en: Journal of Chemical Theory and Computation</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1021/acs.jctc.3c01194" class="no-external">
-<div class="listing-date">
-Mar 12, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIz" data-listing-date-sort="1685599200000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1063/5.0146543" class="no-external">Correlation balance for describing carbenes: An NOF study</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+<tr data-index="11" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIz" data-listing-date-sort="1673330400000" data-listing-title-sort="Electron Correlation in the Iron(II) Porphyrin by Natural Orbital Functional Approximations">
+<td>
+<span class="listing-categories">Journal Article, 2023</span>
+</td>
+<td>
+<span class="listing-date">Jan 10, 2023</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Journal of Chemical Theory and Computation</span>
+</td>
+<td>
+<a href="https://doi.org/10.1021/acs.jctc.2c01093" class="title listing-title">Electron Correlation in the Iron(II) Porphyrin by Natural Orbital Functional Approximations</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1063/5.0146543" class="no-external">
-<p>Publicado en: AIP Advances</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1063/5.0146543" class="no-external">
-<div class="listing-date">
-Jun 1, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIz" data-listing-date-sort="1677564000000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1063/5.0137378" class="no-external">Outstanding improvement in removing the delocalization error by global natural orbital functional</a>
-</h3>
-<div class="listing-categories">
+<tr data-index="12" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIy" data-listing-date-sort="1663131600000" data-listing-title-sort="Charge delocalization error in Piris natural orbital functionals">
+<td>
+<span class="listing-categories">Journal Article, 2022</span>
+</td>
+<td>
+<span class="listing-date">Sep 14, 2022</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: The Journal of Chemical Physics</span>
+</td>
+<td>
+<a href="https://doi.org/10.1063/5.0102310" class="title listing-title">Charge delocalization error in Piris natural orbital functionals</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+<tr data-index="13" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIx" data-listing-date-sort="1613282400000" data-listing-title-sort="Resolution of the identity approximation applied to PNOF correlation calculations">
+<td>
+<span class="listing-categories">Journal Article, 2021</span>
+</td>
+<td>
+<span class="listing-date">Feb 14, 2021</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: The Journal of Chemical Physics</span>
+</td>
+<td>
+<a href="https://doi.org/10.1063/5.0036404" class="title listing-title">Resolution of the identity approximation applied to PNOF correlation calculations</a>
+</td>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1063/5.0137378" class="no-external">
-<p>Publicado en: The Journal of Chemical Physics</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1063/5.0137378" class="no-external">
-<div class="listing-date">
-Feb 28, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIz" data-listing-date-sort="1673330400000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1021/acs.jctc.2c01093" class="no-external">Electron Correlation in the Iron(II) Porphyrin by Natural Orbital Functional Approximations</a>
-</h3>
-<div class="listing-categories">
+</tr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+<tr data-index="14" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIw" data-listing-date-sort="1583820000000" data-listing-title-sort="Asymmetric Density Fitting with Modified Cholesky Decomposition Applied to Second-Order Electron Propagator">
+<td>
+<span class="listing-categories">Journal Article, 2020</span>
+</td>
+<td>
+<span class="listing-date">Mar 10, 2020</span>
+</td>
+<td>
+<span class="listing-description">Publicado en: Journal of Chemical Theory and Computation</span>
+</td>
+<td>
+<a href="https://doi.org/10.1021/acs.jctc.9b01215" class="title listing-title">Asymmetric Density Fitting with Modified Cholesky Decomposition Applied to Second-Order Electron Propagator</a>
+</td>
 
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyMw=='); return false;">2023</div>
+</tr>
 
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1021/acs.jctc.2c01093" class="no-external">
-<p>Publicado en: Journal of Chemical Theory and Computation</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1021/acs.jctc.2c01093" class="no-external">
-<div class="listing-date">
-Jan 10, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIy" data-listing-date-sort="1663131600000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1063/5.0102310" class="no-external">Charge delocalization error in Piris natural orbital functionals</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyMg=='); return false;">2022</div>
-
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1063/5.0102310" class="no-external">
-<p>Publicado en: The Journal of Chemical Physics</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1063/5.0102310" class="no-external">
-<div class="listing-date">
-Sep 14, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIx" data-listing-date-sort="1613282400000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1063/5.0036404" class="no-external">Resolution of the identity approximation applied to PNOF correlation calculations</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyMQ=='); return false;">2021</div>
-
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1063/5.0036404" class="no-external">
-<p>Publicado en: The Journal of Chemical Physics</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1063/5.0036404" class="no-external">
-<div class="listing-date">
-Feb 14, 2021
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="14" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkMyMDIw" data-listing-date-sort="1583820000000">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="https://doi.org/10.1021/acs.jctc.9b01215" class="no-external">Asymmetric Density Fitting with Modified Cholesky Decomposition Applied to Second-Order Electron Propagator</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('MjAyMA=='); return false;">2020</div>
-
-</div>
-<div class="delink listing-description"><a href="https://doi.org/10.1021/acs.jctc.9b01215" class="no-external">
-<p>Publicado en: Journal of Chemical Theory and Computation</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="https://doi.org/10.1021/acs.jctc.9b01215" class="no-external">
-<div class="listing-date">
-Mar 10, 2020
-</div>
-</a>
-</div>
-</div>
-</div>
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
