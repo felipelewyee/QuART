@@ -1,6 +1,6 @@
 project:
   type: website
-  pre-render: update_publications.py
+  #pre-render: update_publications.py
 
 website:
   title: "QuART Lab"
