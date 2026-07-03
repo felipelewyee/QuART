@@ -1,0 +1,18 @@
+---
+title: "Juan Felipe Huan Lew Yee"
+about: 
+  id: contacto
+  template: solana
+  image-shape: round
+  image: Imagenes/JFHLY.png
+# page-layout: full
+---
+
+
+:::{#contacto}
+
+#### felipe.lew.yee@quimica.unam.mx
+
+#### Circuito Escolar S/N, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX.
+
+:::

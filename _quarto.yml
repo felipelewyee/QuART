@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: update_publications.py
 
 website:
   title: "QuART Lab"
@@ -7,7 +8,14 @@ website:
     left:
       - href: intro.ipynb
         text: Home
-      - miembros.ipynb
+      - href: miembros.ipynb
+        text: Miembros
+      - href: software.ipynb
+        text: Software
+      - href: publicaciones.ipynb
+        text: Publicaciones 
+      - href: contacto.qmd
+        text: Contacto
 
 format:
   html:
