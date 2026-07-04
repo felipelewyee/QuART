@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "QuART Lab",
+    "section": "",
+    "text": "Quantum Algorithms and Rdm Theory LABoratory\nQuantum ARTificial LABoratory\n\nBienvenido!\nEsta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee.\nNos dedicamos a hacer:\n\nQuímica Cuántica\nMachine Learning\nQuantum Computing\n\nUbicación: Facultad de Química, Universidad Nacional Autónoma de México"
+  },
+  {
     "objectID": "contacto.html",
     "href": "contacto.html",
     "title": "Juan Felipe Huan Lew Yee",
@@ -14,18 +21,18 @@
     "text": "A Python-Based Module for Exploring Machine Learning-Inspired Optimization Algorithms Using Quantum Chemistry\n\n\n\nJournal Article\n\n2026\n\n\n\nPublicado en: Journal of Chemical Education\n\n\n\nJun 12, 2026\n\n\n\n\n\n\n\n\n\n\n5- and 6-Membered Rings: A Natural Orbital Functional Study\n\n\n\nJournal Article\n\n2026\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 5, 2026\n\n\n\n\n\n\n\n\n\n\nDoNOF 2.0: A modern open-source electronic structure program for natural orbital functionals\n\n\n\nJournal Article\n\n2026\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nFeb 21, 2026\n\n\n\n\n\n\n\n\n\n\nAdvancing Natural Orbital Functional Calculations through Deep Learning-Inspired Techniques for Large-Scale Strongly Correlated Electron Systems\n\n\n\nJournal Article\n\n2025\n\n\n\nPublicado en: Physical Review Letters\n\n\n\nMay 20, 2025\n\n\n\n\n\n\n\n\n\n\nEfficient Energy Measurement of Chemical Systems via One-Particle Reduced Density Matrix: A NOF-VQE Approach for Optimized Sampling\n\n\n\nJournal Article\n\n2025\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 11, 2025\n\n\n\n\n\n\n\n\n\n\nEnhancing the computational efficiency of the DoNOF program through a new orbital sorting scheme\n\n\n\nBook Chapter\n\n2025\n\n\n\nPublicado en: Advances in Quantum Chemistry\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\nMETAL-INSULATOR TRANSITION DESCRIBED BY NOFT,TRANSICIÓN METAL-AISLANTE DESCRITA POR LA TFON\n\n\n\nJournal Article\n\n2025\n\n\n\nPublicado en: Revista Cubana De Fisica\n\n\n\nJan 1, 2025\n\n\n\n\n\n\n\n\n\n\nSoftmax parameterization of the occupation numbers for natural orbital functionals based on electron pairing approaches\n\n\n\nJournal Article\n\n2024\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nJun 28, 2024\n\n\n\n\n\n\n\n\n\n\nExcited States by Coupling Piris Natural Orbital Functionals with the Extended Random-Phase Approximation\n\n\n\nJournal Article\n\n2024\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 12, 2024\n\n\n\n\n\n\n\n\n\n\nCorrelation balance for describing carbenes: An NOF study\n\n\n\nJournal Article\n\n2023\n\n\n\nPublicado en: AIP Advances\n\n\n\nJun 1, 2023\n\n\n\n\n\n\n\n\n\n\nOutstanding improvement in removing the delocalization error by global natural orbital functional\n\n\n\nJournal Article\n\n2023\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nFeb 28, 2023\n\n\n\n\n\n\n\n\n\n\nElectron Correlation in the Iron(II) Porphyrin by Natural Orbital Functional Approximations\n\n\n\nJournal Article\n\n2023\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nJan 10, 2023\n\n\n\n\n\n\n\n\n\n\nCharge delocalization error in Piris natural orbital functionals\n\n\n\nJournal Article\n\n2022\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nSep 14, 2022\n\n\n\n\n\n\n\n\n\n\nResolution of the identity approximation applied to PNOF correlation calculations\n\n\n\nJournal Article\n\n2021\n\n\n\nPublicado en: The Journal of Chemical Physics\n\n\n\nFeb 14, 2021\n\n\n\n\n\n\n\n\n\n\nAsymmetric Density Fitting with Modified Cholesky Decomposition Applied to Second-Order Electron Propagator\n\n\n\nJournal Article\n\n2020\n\n\n\nPublicado en: Journal of Chemical Theory and Computation\n\n\n\nMar 10, 2020\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "QuART Lab",
+    "objectID": "mi-sitio-web/about.html",
+    "href": "mi-sitio-web/about.html",
+    "title": "About",
     "section": "",
-    "text": "Quantum Algorithms and Rdm Theory LABoratory\nQuantum ARTificial LABoratory\n\nBienvenido!\nEsta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee.\nNos dedicamos a hacer:\n\nQuímica Cuántica\nMachine Learning\nQuantum Computing\n\nUbicación: Facultad de Química, Universidad Nacional Autónoma de México"
+    "text": "About this site"
   },
   {
-    "objectID": "mi-sitio-web/index.html",
-    "href": "mi-sitio-web/index.html",
-    "title": "mi-sitio-web",
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "DoNOF\n \n\n\nPyNOF\n \n\n\n\n\nDoNOF.jl"
   },
   {
     "objectID": "about.html",
@@ -35,25 +42,25 @@
     "text": "About this site"
   },
   {
-    "objectID": "mi-sitio-web/about.html",
-    "href": "mi-sitio-web/about.html",
-    "title": "About",
+    "objectID": "mi-sitio-web/index.html",
+    "href": "mi-sitio-web/index.html",
+    "title": "mi-sitio-web",
     "section": "",
-    "text": "About this site"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "miembros.html",
     "href": "miembros.html",
     "title": "Miembros",
     "section": "",
-    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM"
+    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM\n\n\n\n\n\nAlejandro Gómez González\nEstudiante de Licenciatura\nFQ, UNAM"
   },
   {
     "objectID": "miembros.html#activos",
     "href": "miembros.html#activos",
     "title": "Miembros",
     "section": "",
-    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM"
+    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM\n\n\n\n\n\nAlejandro Gómez González\nEstudiante de Licenciatura\nFQ, UNAM"
   },
   {
     "objectID": "miembros.html#estancia-corta",
@@ -68,13 +75,6 @@
     "title": "Miembros",
     "section": "Profesores Amigos",
     "text": "Profesores Amigos\n\n\n\n\n\nDr. Mario Piris\nDIPC, Donostia\nEHU, Donostia\nIkerbasque, Donostia\n  \n\n\n\n\n\nDr. Jorge Martín del Campo Ramírez\nFQ, UNAM\n  \n\n\n\n\n\nDr. Ion Mitxelena\nEHU, Gasteiz\n  \n\n\n\n\n\nDr. Edison Salazar\nDIPC, Donostia"
-  },
-  {
-    "objectID": "software.html",
-    "href": "software.html",
-    "title": "Software",
-    "section": "",
-    "text": "DoNOF\n \n\n\nPyNOF\n \n\n\n\n\nDoNOF.jl"
   },
   {
     "objectID": "intro.html",
