@@ -7,11 +7,53 @@
     "text": "Quantum Algorithms and Rdm Theory LABoratory\nQuantum ARTificial LABoratory\n\nBienvenido!\nEsta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee.\nNos dedicamos a hacer:\n\nQuímica Cuántica\nMachine Learning\nQuantum Computing\n\nUbicación: Facultad de Química, Universidad Nacional Autónoma de México"
   },
   {
-    "objectID": "contacto.html",
-    "href": "contacto.html",
-    "title": "Juan Felipe Huan Lew Yee",
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Sea bienvenido a este lugar!",
     "section": "",
-    "text": "felipe.lew.yee@quimica.unam.mx\n\n\nCircuito Escolar S/N, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX."
+    "text": "Esta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee, ubicado en la Facultad de Química (FQ) de la Universidad Nacional Autónoma de México (UNAM)."
+  },
+  {
+    "objectID": "intro.html#estancia-de-investigación-2026-ii",
+    "href": "intro.html#estancia-de-investigación-2026-ii",
+    "title": "Sea bienvenido a este lugar!",
+    "section": "Estancia de Investigación 2026-II",
+    "text": "Estancia de Investigación 2026-II\nFoto del grupo armando una computadora en su primer día (Junio, 2026)."
+  },
+  {
+    "objectID": "intro.html#líneas-de-investigación",
+    "href": "intro.html#líneas-de-investigación",
+    "title": "Sea bienvenido a este lugar!",
+    "section": "Líneas de Investigación",
+    "text": "Líneas de Investigación\n\n\n Química Cuántica & NOFT\nDesarrollamos e implementamos métodos avanzados basados en la Teoría del Funcional de Orbitales Naturales (NOFT). Buscamos capturar la correlación estática y dinámica simultáneamente con un costo computacional polinómico eficiente.\n\n\n Inteligencia Artificial\nIntegramos algoritmos de Machine Learning y arquitecturas de aprendizaje profundo para predecir propiedades moleculares, corregir matrices de densidad reducida y acelerar significativamente la convergencia y diseño de nuevos funcionales.\n\n\n Computación Cuántica\nExploramos nuevos algoritmos y metodologías para química cuántica en cómputo cuántico.\n\n\n\n\n\n\n\n\nNote¿Te interesa unirte al grupo?\n\n\n\nSiempre estamos buscando estudiantes motivados de Licenciatura, Maestría o Doctorado en Química que deseen especializarse en química teórica y computacional. Escríbenos en la sección de Contacto."
+  },
+  {
+    "objectID": "miembros.html",
+    "href": "miembros.html",
+    "title": "Miembros",
+    "section": "",
+    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM\n\n\n\n\n\nAlejandro Gómez González\nEstudiante de Licenciatura\nFQ, UNAM"
+  },
+  {
+    "objectID": "miembros.html#activos",
+    "href": "miembros.html#activos",
+    "title": "Miembros",
+    "section": "",
+    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM\n\n\n\n\n\nAlejandro Gómez González\nEstudiante de Licenciatura\nFQ, UNAM"
+  },
+  {
+    "objectID": "miembros.html#estancia-corta",
+    "href": "miembros.html#estancia-corta",
+    "title": "Miembros",
+    "section": "Estancia Corta",
+    "text": "Estancia Corta\n\n\n\n\n\nEnrique Terwogt Sánchez\nEstudiante de Licenciatura\nFQ, UNAM"
+  },
+  {
+    "objectID": "miembros.html#profesores-amigos",
+    "href": "miembros.html#profesores-amigos",
+    "title": "Miembros",
+    "section": "Profesores Amigos",
+    "text": "Profesores Amigos\n\n\n\n\n\nDr. Mario Piris\nDIPC, Donostia\nEHU, Donostia\nIkerbasque, Donostia\n  \n\n\n\n\n\nDr. Jorge Martín del Campo Ramírez\nFQ, UNAM\n  \n\n\n\n\n\nDr. Ion Mitxelena\nEHU, Gasteiz\n  \n\n\n\n\n\nDr. Mauricio Rodríguez Mayorga\nLPF, Tolouse\n  \n\n\n\n\n\nDr. Edison Salazar\nDIPC, Donostia"
   },
   {
     "objectID": "publicaciones.html",
@@ -49,52 +91,38 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "miembros.html",
-    "href": "miembros.html",
-    "title": "Miembros",
+    "objectID": "playground2.html",
+    "href": "playground2.html",
+    "title": "Plots Demo2",
     "section": "",
-    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM\n\n\n\n\n\nAlejandro Gómez González\nEstudiante de Licenciatura\nFQ, UNAM"
+    "text": "Plot function pair (x(u), y(u)).\n\nCode\nusing Plots\n\nplot(sin, \n     x-&gt;sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n\n\n\n\n\n\n  Cell In[2], line 7\n    x-&gt;sin(2x),\n           ^\nSyntaxError: invalid decimal literal\n\n\n\n\n\nFigure 1"
   },
   {
-    "objectID": "miembros.html#activos",
-    "href": "miembros.html#activos",
-    "title": "Miembros",
+    "objectID": "playground2.html#parametric-plots",
+    "href": "playground2.html#parametric-plots",
+    "title": "Plots Demo2",
     "section": "",
-    "text": "Dr. Juan Felipe Huan Lew Yee\nProfesor\nFQ, UNAM\n   \n\n\n\n\n\nM. en C. Lizeth Franco Nolasco\nEstudiante de Doctorado\nFQ, UNAM\n  \n\n\n\n\n\nAlonso Vargas Ríos\nEstudiante de Licenciatura\nFQ, UNAM\n\n\n\n\n\nAlejandro Gómez González\nEstudiante de Licenciatura\nFQ, UNAM"
+    "text": "Plot function pair (x(u), y(u)).\n\nCode\nusing Plots\n\nplot(sin, \n     x-&gt;sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n\n\n\n\n\n\n  Cell In[2], line 7\n    x-&gt;sin(2x),\n           ^\nSyntaxError: invalid decimal literal\n\n\n\n\n\nFigure 1"
   },
   {
-    "objectID": "miembros.html#estancia-corta",
-    "href": "miembros.html#estancia-corta",
-    "title": "Miembros",
-    "section": "Estancia Corta",
-    "text": "Estancia Corta\n\n\n\n\n\nEnrique Terwogt Sánchez\nEstudiante de Licenciatura\nFQ, UNAM"
-  },
-  {
-    "objectID": "miembros.html#profesores-amigos",
-    "href": "miembros.html#profesores-amigos",
-    "title": "Miembros",
-    "section": "Profesores Amigos",
-    "text": "Profesores Amigos\n\n\n\n\n\nDr. Mario Piris\nDIPC, Donostia\nEHU, Donostia\nIkerbasque, Donostia\n  \n\n\n\n\n\nDr. Jorge Martín del Campo Ramírez\nFQ, UNAM\n  \n\n\n\n\n\nDr. Ion Mitxelena\nEHU, Gasteiz\n  \n\n\n\n\n\nDr. Mauricio Rodríguez Mayorga\nLPF, Tolouse\n  \n\n\n\n\n\nDr. Edison Salazar\nDIPC, Donostia"
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Sea bienvenido a este lugar!",
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Juan Felipe Huan Lew Yee",
     "section": "",
-    "text": "Esta es la página del grupo de investigación del Dr. Juan Felipe Huan Lew Yee, ubicado en la Facultad de Química (FQ) de la Universidad Nacional Autónoma de México (UNAM)."
+    "text": "felipe.lew.yee@quimica.unam.mx\n\n\nCircuito Escolar S/N, Coyoacán, Cd. Universitaria, 04510 Ciudad de México, CDMX."
   },
   {
-    "objectID": "intro.html#estancia-de-investigación-2026-ii",
-    "href": "intro.html#estancia-de-investigación-2026-ii",
-    "title": "Sea bienvenido a este lugar!",
-    "section": "Estancia de Investigación 2026-II",
-    "text": "Estancia de Investigación 2026-II\nFoto del grupo armando una computadora en su primer día (Junio, 2026)."
+    "objectID": "playground.html",
+    "href": "playground.html",
+    "title": "Plots Demo",
+    "section": "",
+    "text": "Plot function pair (x(u), y(u)). See Figure 1 for an example.\n\n\nCode\nusing Plots\n\nplot(sin, \n     x-&gt;sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n\n\n\nPrecompiling packages...\n   1577.3 ms  ✓ QuartoNotebookWorkerJSONExt (serial)\n  1 dependency successfully precompiled in 2 seconds\nPrecompiling packages...\n   3397.2 ms  ✓ QuartoNotebookWorkerPlotsExt (serial)\n  1 dependency successfully precompiled in 3 seconds\n\n\n\n\n\n\n\n\n\nFigure 1: Parametric Plots"
   },
   {
-    "objectID": "intro.html#líneas-de-investigación",
-    "href": "intro.html#líneas-de-investigación",
-    "title": "Sea bienvenido a este lugar!",
-    "section": "Líneas de Investigación",
-    "text": "Líneas de Investigación\n\n\n Química Cuántica & NOFT\nDesarrollamos e implementamos métodos avanzados basados en la Teoría del Funcional de Orbitales Naturales (NOFT). Buscamos capturar la correlación estática y dinámica simultáneamente con un costo computacional polinómico eficiente.\n\n\n Inteligencia Artificial\nIntegramos algoritmos de Machine Learning y arquitecturas de aprendizaje profundo para predecir propiedades moleculares, corregir matrices de densidad reducida y acelerar significativamente la convergencia y diseño de nuevos funcionales.\n\n\n Computación Cuántica\nExploramos nuevos algoritmos y metodologías para química cuántica en cómputo cuántico.\n\n\n\n\n\n\n\n\nNote¿Te interesa unirte al grupo?\n\n\n\nSiempre estamos buscando estudiantes motivados de Licenciatura, Maestría o Doctorado en Química que deseen especializarse en química teórica y computacional. Escríbenos en la sección de Contacto."
+    "objectID": "playground.html#parametric-plots",
+    "href": "playground.html#parametric-plots",
+    "title": "Plots Demo",
+    "section": "",
+    "text": "Plot function pair (x(u), y(u)). See Figure 1 for an example.\n\n\nCode\nusing Plots\n\nplot(sin, \n     x-&gt;sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n\n\n\nPrecompiling packages...\n   1577.3 ms  ✓ QuartoNotebookWorkerJSONExt (serial)\n  1 dependency successfully precompiled in 2 seconds\nPrecompiling packages...\n   3397.2 ms  ✓ QuartoNotebookWorkerPlotsExt (serial)\n  1 dependency successfully precompiled in 3 seconds\n\n\n\n\n\n\n\n\n\nFigure 1: Parametric Plots"
   }
 ]
