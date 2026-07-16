@@ -1,0 +1,11 @@
+---
+title: "Red Neuronal con Flux.jl para reproducir una función"
+author: "Alejandro Gomez González, Felipe Lew Yee"
+date: "16/07/2026"
+---
+
+---
+
+::: {.column-page}
+<iframe src="2-sen.html" width="100%" height="800px" style="border:none;"></iframe>
+:::

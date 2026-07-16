@@ -14,6 +14,8 @@ website:
         text: Software
       - href: publicaciones.ipynb
         text: Publicaciones 
+      - href: playground.qmd
+        text: Playground
       - href: contacto.qmd
         text: Contacto
 
