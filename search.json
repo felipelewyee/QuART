@@ -116,13 +116,20 @@
     "href": "playground.html",
     "title": "Plots Demo",
     "section": "",
-    "text": "Plot function pair (x(u), y(u)). See Figure 1 for an example.\n\n\nCode\nusing Plots\n\nplot(sin, \n     x-&gt;sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n\n\n\nPrecompiling packages...\n   1577.3 ms  ✓ QuartoNotebookWorkerJSONExt (serial)\n  1 dependency successfully precompiled in 2 seconds\nPrecompiling packages...\n   3397.2 ms  ✓ QuartoNotebookWorkerPlotsExt (serial)\n  1 dependency successfully precompiled in 3 seconds\n\n\n\n\n\n\n\n\n\nFigure 1: Parametric Plots"
+    "text": "Code\nusing Flux, Optimisers, Random, Plots, Measures, PlutoUI\nepocas = 100\nn1 = 1\nn2 = 2\n\n\n2"
   },
   {
-    "objectID": "playground.html#parametric-plots",
-    "href": "playground.html#parametric-plots",
+    "objectID": "playground.html#machine-learning-playground",
+    "href": "playground.html#machine-learning-playground",
     "title": "Plots Demo",
     "section": "",
-    "text": "Plot function pair (x(u), y(u)). See Figure 1 for an example.\n\n\nCode\nusing Plots\n\nplot(sin, \n     x-&gt;sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n\n\n\nPrecompiling packages...\n   1577.3 ms  ✓ QuartoNotebookWorkerJSONExt (serial)\n  1 dependency successfully precompiled in 2 seconds\nPrecompiling packages...\n   3397.2 ms  ✓ QuartoNotebookWorkerPlotsExt (serial)\n  1 dependency successfully precompiled in 3 seconds\n\n\n\n\n\n\n\n\n\nFigure 1: Parametric Plots"
+    "text": "Code\nusing Flux, Optimisers, Random, Plots, Measures, PlutoUI\nepocas = 100\nn1 = 1\nn2 = 2\n\n\n2"
+  },
+  {
+    "objectID": "playground.html#configuración-de-la-red-para-sinx",
+    "href": "playground.html#configuración-de-la-red-para-sinx",
+    "title": "Plots Demo",
+    "section": "🎛️ Configuración de la Red para \\(sin(x)\\)",
+    "text": "🎛️ Configuración de la Red para \\(sin(x)\\)\n\nNúmero de Epochs: $(@bind epocas Slider(10:100:2000, default=600, show_value=true))\nNeuronas Capa 1: $(@bind n1 Slider(1:10:61, default=11, show_value=true))\nNeuronas Capa 2: $(@bind n2 Slider(1:10:61, default=11, show_value=true))\n\n\n\nCode\n    # 1. Rango fijo y seguro para el seno\n    x_min, x_max = -5.0f0, 5.0f0\n    rango_ancho = x_max - x_min\n\n    # 2. Re-generar datos limpios\n    Random.seed!(42)\n    X_raw = rand(Float32, 1, 300) .* rango_ancho .+ x_min\n    Y_raw = sin.(X_raw)\n\n    # 3. Modelo dinámico conectado a los Sliders\n    modelo = Chain(\n        Dense(1 =&gt; n1, tanh),\n        Dense(n1 =&gt; n2, tanh),\n        Dense(n2 =&gt; 1)\n    )\n\n    opt_rule = Optimisers.Adam(0.01f0)\n    opt_state = Optimisers.setup(opt_rule, modelo)\n    loss(m, x, y) = Flux.mse(m(x), y)\n\n    # 4. Entrenamiento\n    for epoch in 1:epocas\n        val, grads = Flux.withgradient(modelo) do m\n            loss(m, X_raw, Y_raw)\n        end\n        global opt_state, modelo = Optimisers.update!(opt_state, modelo, grads[1])\n    end\n    \n    error_final = loss(modelo, X_raw, Y_raw)\n    \"🤖 Red entrenada. Arquitectura actual: (1 ➔ $n1 ➔ $n2 ➔ 1). Error final: $(round(error_final, digits=5))\"\n\n\n\"🤖 Red entrenada. Arquitectura actual: (1 ➔ 1 ➔ 2 ➔ 1). Error final: 0.51796\"\n\n\n\n\nCode\n    # Preparar puntos para evaluar la curva continua\n    X_real_plot = range(x_min - 4, x_max + 4, length=150)\n    Y_real_plot = sin.(X_real_plot)\n    \n    X_pred_plot = reshape(collect(Float32, X_real_plot), 1, :)\n    Y_pred_plot = modelo(X_pred_plot)\n    \n    # Dibujar la función matemática real\n    plt = plot(X_real_plot, Y_real_plot, \n        label=\"Función Real: sin(x)\", color=:black, linewidth=3, \n        title=\"Aproximación por Tramos (ReLU)\", xlabel=\"x\", ylabel=\"y\",\n        legend=:best, grid=true, margin=5mm, size=(700, 400)\n    )\n    \n    # Puntos rojos de entrenamiento\n    scatter!(X_raw[1,:], Y_raw[1,:], label=\"Datos de Entrenamiento\", color=:red, markersize=2, alpha=0.4)\n    \n    # Línea verde punteada con la predicción de la IA\n    plot!(X_real_plot, Y_pred_plot[1,:], label=\"Predicción Red Neuronal\", color=:orange, linewidth=2, linestyle=:dash)\n    \n    plt"
   }
 ]
