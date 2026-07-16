@@ -1,7 +1,7 @@
 ---
 title: "Red Neuronal con Flux.jl para reproducir una función"
 author: "Alejandro Gomez González, Felipe Lew Yee"
-date: "16/07/2026"
+date: "07/16/2026"
 ---
 
 ---
